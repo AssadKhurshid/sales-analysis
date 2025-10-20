@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sales Data Analysis Project
 
 A professional data science project demonstrating Git, GitHub, Jupyter, and Docker skills.
@@ -42,3 +43,7 @@ sales-analysis/
 
 ## Author
 Assad - GitHub: @assadKhurshid
+=======
+# sales-analysis
+Professional data analysis project with Docker and Jupyter
+>>>>>>> bc8ea9cf2617091a2be3ebb2886a942c053b9127
