@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  jupyter:
+    build: .
+    container_name: sales-analysis-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/app/notebooks
+      - ./data:/app/data
+      - ./src:/app/src
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
